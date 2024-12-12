@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: lufga-nav;
+  src: url(../fonts/LufgaBold.ttf);
+}
+@font-face {
+  font-family: lufga-titr;
+  src: url(../fonts/LufgaBold.ttf);
+}
+@font-face {
+  font-family: lufga-title;
+  src: url(../fonts/LufgaLight.ttf);
+}
+@font-face {
+  font-family: lufga-buttton;
+  src: url(../fonts/LufgaSemiBold.ttf);
+}
+body{
+  background-color:whitesmoke;
+}
+.main-page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  padding: 0 30px;
+}
+.main-page-nav a {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+}
+.main-page-nav a .account {
+  display: flex;
+}
+.main-page-nav a svg {
+  display: flex;
+  width: 40px;
+  height: 80px;
+}
+header {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  height: 20vh;
+  padding: 20px 40px;
+}
+.title h2 {
+  font-family: lufga-titr;
+  font-size: 25px;
+}
+header .search-box {
+  padding: 10px 40px;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  gap: 5px;
+}
+header .search-box form {
+  padding: 0 20px;
+  background-color: #fff;
+  width: 90%;
+  height: 60px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .search-box form input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: lufga-titr;
+}
+header .search-box a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  width: 15%;
+  height: 60px;
+  background-color: #6246f9;
+  box-shadow: #6246f9 0px 0px 5px 1px ;
+}
+header .search-box a svg{
+  width: 28px;
+  height: 28px;
+  display: flex;
+}
+
+.house-bar{
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+
+}
+.house-bar a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color:gray;
+  font-family: lufga-buttton;
+  transition-duration:0.3s;
+}
+.house-bar a:hover{
+  background-color: #6246f9;
+  color: #fff;
+  box-shadow: #6246f9 0px 0px 5px 1px ;
+}
